@@ -1,5 +1,10 @@
 package test
 
-func Test() string {
-  retrun "this is test"
+import (
+	"fmt"
+
+)
+
+func Test() {
+ fmt.Println("this is test")
 }
